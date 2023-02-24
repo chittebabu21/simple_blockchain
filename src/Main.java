@@ -16,5 +16,8 @@ public class Main {
         for (Block block : blockchain.getBlocks()) {
             System.out.println(block.getHash());
         }
+        
+        // print number of blocks in the blockchain
+        System.out.println("Number of blocks: " + blockchain.getBlocks().size());
     }
 }
